@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es" data-dark>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio/MarichalesDev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/dom-ejercicios.css">
+</head>
+<body data-dark>
+  
+<header class="header">
+    <h1>&ltPortfolio&gtMarichalesDev&ltPortfolio/&gt</h1>
+</header>
+<button class="panel-btn hamburger hamburger--vortex" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+  <aside class="panel">
+    <nav class="menu">
+        <a href="#seccion1" data-scroll-spy>Reloj Digital y Alarma Sonora</a>
+        <a href="#seccion2" data-scroll-spy>Eventos del Teclado</a>
+        <a href="#seccion3" data-scroll-spy>Cuenta Regresiva</a>
+        <a href="#seccion4" data-scroll-spy>Responsive con Javascript</a>
+        <a href="#seccion5" data-scroll-spy>Responsive Tester</a>
+        <a href="#seccion6" data-scroll-spy>Detección de Dispositivos</a>
+        <a href="#seccion7" data-scroll-spy>Detección de la conexión</a>
+        <a href="#seccion8" data-scroll-spy>Detección de la cámara web</a>
+        <a href="#seccion9" data-scroll-spy>Geolocalización</a>
+        <a href="#seccion10" data-scroll-spy>Filtros de Búsqueda</a>
+        <a href="#seccion11" data-scroll-spy>Sorteo Digital</a>
+        <a href="#seccion12" data-scroll-spy>Responsive Slider</a>
+        <a href="#seccion13" data-scroll-spy>Posición del Mouse</a>
+        <a href="#seccion14" data-scroll-spy>Video Inteligente</a>
+        <a href="#seccion15" data-scroll-spy>Validación de Formularios</a>
+        <a href="#seccion16" data-scroll-spy>Narrador</a>
+        <a href="#seccion17" data-scroll-spy>Drag and Drop</a>
+        <!--a href="#seccion18" data-scroll-spy>Sección18</a>
+        <a href="#seccion19" data-scroll-spy>Sección19</a>
+        <a href="#seccion20" data-scroll-spy>Sección20</a>
+        <a href="#seccion21" data-scroll-spy>Sección21</a-->
+    </nav>
+  </aside>
+  <main>
+    <section id="seccion1" class="section" data-scroll-spy>
+        <h2>Reloj Digital y Alarma Sonora</h2>
+        <div id="reloj"></div>
+        <div>
+          <button id="activar-reloj">Iniciar Reloj</button>
+          <button id="desactivar-reloj">Detener Reloj</button>
+          <button id="activar-alarma">Iniciar Alarma</button>
+          <button id="desactivar-alarma">Detener Alarma</button>
+        </div>
+    </section>
+    <section id="seccion2" class="section" data-scroll-spy>
+        <h2>Eventos del Teclado (Movimientos y Colisiones)</h2>
+        <article class="stage">
+          <div class="ball"></div>
+        </article>
+        <blockquote><b>Se usa con las flechas del teclado</b></blockquote>
+        </section>
+    <section id="seccion3" class="section" data-scroll-spy>
+        <h2>Cuenta Regresiva</h2>
+        <div id="countdown"></div>
+    </section>
+    <section id="seccion4" class="section" data-scroll-spy>
+      <h2>Responsive con Javascript</h2>
+      <div id="youtube"></div>
+      <div id="gmaps"></div>
+    </section>
+    <section id="seccion5" class="section" data-scroll-spy>
+      <h2>Responsive Tester</h2>
+      <form id="responsive-tester">
+        <input name="direccion" type="url" placeholder="URL" required>
+        <br>
+        <input name="ancho" type="text" placeholder="Ancho" required>
+        <br>
+        <input name="alto" type="text" placeholder="Alto" required>
+        <br>
+        <input name="probar" type="submit" value="Probar">
+        <input name="cerrar" type="button" value="Cerrar">
+      </form>
+    </section>
+    <section id="seccion6" class="section" data-scroll-spy>
+      <h2>Detección de Dispositivos <br>(User Agent)</h2>
+      <div id="user-device"></div>
+    </section>
+    <section id="seccion7" class="section" data-scroll-spy>
+      <h2>Detección de la conexión</h2>
+      <p style="font-size: 2.5vh;"><b>Para probar esta función hay que desconectar y 
+        conectar nuevamente la conexión a internet</b>
+      </p>
+    </section>
+    <section id="seccion8" class="section" data-scroll-spy>
+      <h2>Detección de la cámara web</h2>
+      <video src="" id="webcam"></video>
+    </section>
+    <section id="seccion9" class="section" data-scroll-spy>
+      <h2>Geolocalización</h2>
+      <div id="geolocation"></div>
+    </section>
+    <section id="seccion10" class="section" data-scroll-spy>
+      <h2>Filtros de Búsqueda</h2>
+      <input type="search" name="" id="" placeholder="Buscar..." class="card-filter">
+      <article class="cards">
+        <figure class="card">
+          <img src="https://placeimg.com/200/200/nature" alt="Nature">
+          <figcaption>Nature</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="https://placeimg.com/200/200/any" alt="Any">
+          <figcaption>Any</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="https://placeimg.com/200/200/tech" alt="Tech">
+          <figcaption>Tech</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="https://placeimg.com/200/200/animals" alt="Animals">
+          <figcaption>Animals</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="https://placeimg.com/200/200/people" alt="People">
+          <figcaption>People</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="https://placeimg.com/200/200/arch" alt="Arch">
+          <figcaption>Architecture</figcaption>
+        </figure>
+      </article>
+    </section>
+    <section id="seccion11" class="section" data-scroll-spy>
+      <h2>Sorteo Digital</h2>
+      <ul class="players">
+        <li class="player">Javascript</li>
+        <li class="player">PHP</li>
+        <li class="player">JAVA</li>
+        <li class="player">C</li>
+        <li class="player">Python</li>
+        <li class="player">Ruby</li>
+        <li class="player">Go</li>
+        <li class="player">Visual Basic</li>
+        <li class="player">Rust</li>
+        <li class="player">Perl</li>
+      </ul>
+      <button id="winner-btn">Obtener Ganador</button>
+    </section>
+    <section id="seccion12" class="section" data-scroll-spy>
+      <h2>Responsive Slider</h2>
+      <div class="slider">
+        <div class="slider-slides">
+          <div class="slider-slide active">
+            <img src="https://placeimg.com/400/400/animals" alt="Animals">
+          </div>
+          <div class="slider-slide">
+            <h4>Diapositiva 2</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Tempora, inventore officia. Maiores itaque praesentium nemo,
+              atque nisi placeat voluptatum blanditiis fugit quam harum, 
+              vitae sunt! Excepturi id ad nemo architecto!
+            </p>
+          </div>
+          <div class="slider-slide">
+            <img src="https://placeimg.com/400/400/nature" alt="Nature">
+          </div>
+          <div class="slider-slide">
+            <h4>Diapositiva 4</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Tempora, inventore officia. Maiores itaque praesentium nemo,
+              atque nisi placeat voluptatum blanditiis fugit quam harum, 
+              vitae sunt! Excepturi id ad nemo architecto!
+            </p>
+          </div>
+          <div class="slider-slide">
+            <img src="https://placeimg.com/400/400/architecture" alt="Architecture">
+          </div>
+          <div class="slider-slide">
+            <h4>Diapositiva 6</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Tempora, inventore officia. Maiores itaque praesentium nemo,
+              atque nisi placeat voluptatum blanditiis fugit quam harum, 
+              vitae sunt! Excepturi id ad nemo architecto!
+            </p>
+          </div>
+          </div>
+          <div class="slider-btns">
+            <a href="#" class="prev">&laquo;</a>
+            <a href="#" class="next">&raquo;</a>
+        </div>
+        <div class="translate-btns">
+          <a href="#" class="t-prev">&laquo;</a>
+          <a href="#" class="t-next">&raquo;</a>
+      </div>
+         <div class="option-btns">
+        <button class="translate-option">Translate</button>
+        <button class="fade-option">Fade</button>
+
+        </div>
+    </section>
+    <section id="seccion13" class="section" data-scroll-spy>
+     <h2>Posición del Mouse</h2>
+    <button id="add">Add</button>
+    <button id="remove">Remove</button>
+    <h4 id="output">Output</h4>
+    
+    </section>
+    <section id="seccion14" class="section" data-scroll-spy>
+     <h2>Video Inteligente</h2>
+    <video src="/assets/coverr-a-tropical-beach-681-1080p.mp4" muted controls loop data-smart-video style="width: -webkit-fill-available;"></video>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </section>
+    <section id="seccion15" class="section" data-scroll-spy>
+      <h2>Validación de Formularios</h2>
+      <form class="contact-form" action="https://formsubmit.co/marichalesdev@gmail.com" 
+      method="POST" target="_blank">
+        <legend>Envíanos tus comentarios</legend>
+        
+        <input type="text" name="name" placeholder="Escribe tu nombre" title="Nombre
+        sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+        
+        <input type="email" name="email" placeholder="Escribe tu email" title="Email incorrecto" 
+        pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+        
+        <input type="text" name="subject" placeholder="Asunto a tratar" title="El Asunto es requerido" required >
+        
+        <textarea name="comments" cols="50" rows="5" placeholder="Escribe tus comentarios" 
+        data-pattern="^.{1,255}$" title="Tu comentario no debe exceder los 255 caracteres" required></textarea>
+        <input type="submit" value="Enviar">
+        <div class="contact-form-loader none">
+          <img src="/assets/bars.svg" alt="">
+        </div>
+        <div class="contact-form-response none">
+          <p>Los datos han sido enviados</p>
+        </div>
+      </form>
+    </section>
+    <section id="seccion16" class="section" data-scroll-spy>
+    <h2>Narrador</h2>
+    <select id="speech-select">
+      <option value="">--- Elige una Voz ---</option>
+    </select>
+    <br><br>
+    <textarea id="speech-text" cols="50" rows="5" placeholder="Ingresa texto para leerlo..."></textarea>
+    <br><br>
+    <button id="speech-btn">Leer Texto</button>
+    </section>
+    <section id="seccion17" class="section" data-scroll-spy>
+    <h2>Drag and Drop</h2>
+    <h4>Arrastra a donde corresponde</h4>
+    <div class="container">
+      <img src="/assets/leon.jpg" alt="" draggable="true" id="leon">
+      <img src="/assets/Jaguar.jpg" alt="" draggable="true" id="jaguar">
+      <img src="/assets/tigre.jpg" alt="" draggable="true" id="tigre">
+    </div>
+    <div class="container">
+      <div class="figura">
+    <div class="box" id="uno"></div>
+    <h4>Leon</h4>
+      </div>
+      <div class="figura">
+    <div class="box" id="dos"></div>
+    <h4>Jaguar</h4>
+      </div>
+      <div class="figura">
+    <div class="box" id="tres"></div>
+    <h4>Tigre</h4>
+      </div>
+    </div>
+    </section>
+    <!--section id="seccion18" class="section" data-scroll-spy><h2>Sección 18</h2></section>
+    <section id="seccion19" class="section" data-scroll-spy><h2>Sección 19</h2></section>
+    <section id="seccion20" class="section" data-scroll-spy><h2>Sección 20</h2></section>
+    <section id="seccion21" class="section" data-scroll-spy><h2>Sección 21</h2></section-->
+  </main>
+  <button class="bt-scroll" hidden>&#11014</button>
+  <button class="bt-dark-light" >🌙</button>
+  <script src="index_dom.js" type="module"></script>
+    
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

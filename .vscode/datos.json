@@ -1,0 +1,12 @@
+{
+    "cadena": "Julio",
+    "numero": "21",
+    "booleano": "true",
+    "arreglo": ["correr","programar","cocinar"],
+    
+    "objeto": {
+     "twitter":"@Juliocesar",
+     "email":"juliocesar@gmail.com"
+    },
+    "nulo": null
+   }
