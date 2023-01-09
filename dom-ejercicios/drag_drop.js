@@ -28,30 +28,30 @@ export default function dragnDrop() {
     d.addEventListener("drag", (e) => {
         
         if (e.target === $leon){
-            $leon.classList.add('active')
+            $leon.classList.add('activated')
         }
         
         if (e.target === $jaguar){
-            $jaguar.classList.add('active')
+            $jaguar.classList.add('activated')
         }
 
         if (e.target === $tigre){
-            $tigre.classList.add('active')
+            $tigre.classList.add('activated')
         }
     });  
 
     d.addEventListener("dragend", (e) => {
         
         if (e.target === $leon){
-            $leon.classList.remove('active')
+            $leon.classList.remove('activated')
         }
 
         if (e.target === $jaguar){
-            $jaguar.classList.remove('active')
+            $jaguar.classList.remove('activated')
         }
 
         if (e.target === $tigre){
-            $tigre.classList.remove('active')
+            $tigre.classList.remove('activated')
         }
 
     })
